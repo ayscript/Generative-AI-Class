@@ -1,0 +1,5 @@
+Type casting: is when you convert a data type to another data type by concatenating another value with the data
+for example: 
+age = "23"
+age_in_number = age + 1
+age is a string initially, but when added to an int data type (1) the data type of age now changes from string to int
