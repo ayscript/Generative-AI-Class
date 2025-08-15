@@ -33,3 +33,15 @@ print(squares)
 # Dictionaries of even numbers and their cubes
 even_cubes = {x: x**3 for x in range(1,10) if x % 2 == 0}
 print(even_cubes)
+
+# From existing dictionaries
+students = {"Ada": 85, "John": 40, "Musa": 65}
+# Filter students who passed (score >= 50)
+passed_student = {name: item for name, item in students.items() if item >= 50}
+print(passed_student)
+
+# Using String Keys
+names = ["Ada", "John", "Musa"]
+lengths = {name: len(name) for name in names}
+print(lengths)
+
